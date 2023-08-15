@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.head1{
+    display: flex;
+    background-color: #37517e;
+    width: 100%;
+    height: 70px;
+    padding: 15px 120px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head1 h1{
+    color: #fff;
+    /* margin-right: auto; */
+
+}
+.nav1 ul{
+    display: flex;
+}
+
+.nav1 ul li{
+    list-style: none;
+    margin-right: 23px;
+}
+
+.nav1  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.nav1 .btn-nav{
+    border: 2px solid #47b2e4;
+    border-radius: 25px;
+    padding: 13px 25px;
+}
+
+/* HOME SECTION */
+
+.home{
+    height: 550px;
+    background-color: #37517e;
+    padding: 60px 100px;
+    display: flex;
+}
+
+.home .head-text{
+    padding: 10px;
+    width: 47%;
+    height: 100%;
+    margin-right: 20px;
+    /* border: 1px solid white; */
+}
+
+.home .head-text h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #fff;
+    line-height: 55px;
+}
+.home .head-text p{
+    font-size: 25px;
+    color: #afb9cb;
+    line-height: 40px;
+}
+.home .head-text .head-btn{
+
+    margin-top: 70px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+.home .head-btn i{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.home .head-btn-first{
+    background-color: #47b2e4;
+    margin-right: 20px;
+}
+
+.home .head-text .head-btn a{
+    text-decoration: none;
+    color: #fff;
+    padding: 13px 25px;
+    border-radius: 25px;
+    font-weight: bolder;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+} 
+
+.home .head-img{
+    width: 47%;
+    height: 100%;
+/* border: 1px solid white; */
+}
+
+.home .head-img img{
+    width: 100%;
+    height: 100%;
+    /* padding: 30px; */
+    object-fit:fill;
+}
+
+.home .animate__shakeY{
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+}
+
+/* CLIENTS */
+.main-cli-img{
+    height: 100px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-cli-img .cli-img{
+    height: 70px;
+    width: 190px;
+    padding: 0 20px;
+
+}
+
+.cli-img img{
+    height: 100%;
+    width: 60%;
+    padding: 15px 0;
+    /* object-fit: cover; */
+    filter: grayscale(100%);
+    transition: 0.2s;
+}
+
+.main-cli-img img:hover{
+    filter: grayscale(0%);
+}
